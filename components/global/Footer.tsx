@@ -40,7 +40,7 @@ function Footer() {
             </div>
           );
         })}
-        {/* <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
+        <div className="text-center col-span-2 sm:col-auto sm:text-left pt-8 sm:mt-0 sm:pt-0 text-fun-gray border-t border-fun-pink-dark sm:border-0">
           <h4 className="uppercase text-fun-gray text-sm font-bold">
             Support My Work
           </h4>
@@ -58,7 +58,7 @@ function Footer() {
                 </a>
               </div>
             )}
-            {footer.support.paypal !== "" && (
+            {/* {footer.support.paypal !== "" && (
               <div>
                 <a
                   href={`https://paypal.me/${footer.support.paypal}`}
@@ -70,12 +70,12 @@ function Footer() {
                   />
                 </a>
               </div>
-            )}
+            )} */}
             <p className="text-fun-gray text-xs pt-1">
               {footer.support.message}
             </p>
           </div>
-        </div> */}
+        </div>
       </div>
       <div className="max-w-4xl w-full m-auto mt-8 pt-8 sm:mt-4 sm:pt-4 text-center text-fun-gray border-t border-fun-pink-dark">
         <p className="flex flex-col items-center justify-center ">
