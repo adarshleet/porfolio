@@ -7,7 +7,7 @@ const projects: Project[] = [
     title: "Weather App",
     desc: "Getting current weather with search. Background changing with respect to the weather",
     img: "/static/projects/weatherApp.png",
-    link: "https://weather-rho-beige-62.vercel.app/",
+    link: "https://weatherapp.adarshraveendran.in",
     github: "https://github.com/adarshleet/weatherApp",
     tags: ["React", "TailwindCSS"],
   },
